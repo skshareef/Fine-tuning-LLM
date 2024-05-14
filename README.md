@@ -13,8 +13,7 @@ To set up your environment for running the notebook, install the required librar
 
 ```bash
 pip install torch==2.0.1 transformers==4.32.1 datasets==2.14.4 peft==0.5.0 bitsandbytes==0.41.1 trl==0.7.1 accelerate
-
-'''bash
+```
 
 ## LoRA Framework
 
