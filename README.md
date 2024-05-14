@@ -14,6 +14,8 @@ To set up your environment for running the notebook, install the required librar
 ```bash
 pip install torch==2.0.1 transformers==4.32.1 datasets==2.14.4 peft==0.5.0 bitsandbytes==0.41.1 trl==0.7.1 accelerate
 
+'''bash
+
 ## LoRA Framework
 
 The LoRA framework is used to adaptively fine-tune the LLaMA model. LoRA allows for efficient training of large language models by introducing low-rank matrices that capture important updates during the fine-tuning process. This method is computationally less intensive and memory efficient, making it ideal for enhancing models where deployment resources are limited.
